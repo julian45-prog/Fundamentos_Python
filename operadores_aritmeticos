@@ -1,0 +1,27 @@
+#operadores aritmeticos
+Valor1 = float(input("Ingrese el primer numero"))
+Valor2 = float(input("Ingrese el segundo numero"))
+tipo_operacion = input("Ingrese la operación a realizar (1suma, 2resta, 3multiplicacion, 4division, 5modulo, 6division_entera, 7potencia): ")
+
+suma = Valor1 + Valor2
+resta = Valor1 - Valor2
+multiplicacion = Valor1 * Valor2
+division = Valor1 / Valor2
+modulo = Valor1 % Valor2
+division_entera = Valor1 // Valor2
+potencia = Valor1 ** Valor2
+
+if tipo_operacion == "1":
+    print(f"Suma: {suma}")
+elif tipo_operacion == "2":
+    print(f"Resta: {resta}")
+elif tipo_operacion == "3":
+    print(f"Multiplicación: {multiplicacion}")
+elif tipo_operacion == "4":
+    print(f"División: {division}")
+elif tipo_operacion == "5":
+    print(f"Módulo: {modulo}")
+elif tipo_operacion == "6":
+    print(f"División Entera: {division_entera}")
+elif tipo_operacion == "7":
+    print(f"Potencia: {potencia}")
