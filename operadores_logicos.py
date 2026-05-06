@@ -35,3 +35,5 @@ print(5<3 or 2>4) # El resultado de la operación (5 <3 or 2>4) es: False
 # Ejercicio NOT
 print(not (2<4)) # El resultado de la operación not (2<4) es: False
 print(not (2>4)) # El resultado de la operación not (2>4) es: True
+
+

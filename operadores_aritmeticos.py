@@ -11,6 +11,7 @@ print(f"La Suma de {a} y {b} es: {suma}")
 resta = a - b
 print(f"La Resta de {a} y {b} es: {resta}")
 
+
 # Multiplicación
 multiplicacion = a * b      
 print(f"La Multiplicación de {a} y {b} es: {multiplicacion}")
