@@ -120,4 +120,3 @@ print(f"Edad: {edad}, categoría: {categoria}")
 
 
 
-
